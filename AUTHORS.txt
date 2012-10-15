@@ -1,0 +1,6 @@
+Original tcguestbook that I totally ripped:
+Douglas Starnes
+Brad Montgomery
+
+New stuff (Celery and geolookup):
+Mike Cochran

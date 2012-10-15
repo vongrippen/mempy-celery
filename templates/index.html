@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cities</title>
+    <link rel="stylesheet" href="/styles/styles.css" type="text/css"/>
+</head>
+<body>
+    <h1>Cities</h1>
+    <a href="/new">Add a City</a>
+    {% for entry in entries %}
+        <div class="entry">
+            Name: {{ entry.name }}<br/>
+            Zip: {{ entry.zip }}<br/>
+            <small>
+            Added at {{ entry.timestamp.strftime('%Y-%m-%d %I:%M %p') }}
+            </small>
+        </div>
+    {% endfor %}
+</body>
+</html>

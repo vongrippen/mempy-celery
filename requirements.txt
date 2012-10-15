@@ -1,0 +1,16 @@
+Flask==0.9
+Jinja2==2.6
+Werkzeug==0.8.3
+amqplib==1.0.2
+anyjson==0.3.3
+beanstalkc==0.3.0
+billiard==2.7.3.17
+celery==3.0.11
+celery-with-beanstalk==3.0
+distribute==0.6.28
+kombu==2.4.7
+mongoengine==0.6.16
+pymongo==2.3
+python-dateutil==1.5
+requests==0.14.1
+wsgiref==0.1.2
